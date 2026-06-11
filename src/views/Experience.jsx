@@ -4,11 +4,31 @@ import Accordion from "../component/Accodation.jsx";
 
 const experiencia = [
     {
+        job: "Full-Stack",
+        company: "Comptroller's Office of the State of Jalisco",
+        imgCompany:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlz5UW2m-cAoo91fE_1yw1UqDfYpSDkd3zyg&s",
+        date: "May 2026 – Present",
+        tech: [
+            "ReactJS",
+            "PrimeReact",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Git",
+            "GitLab",
+            "ExpressJS",
+        ],
+        description:
+            "Development and maintenance of web applications, as well as integration of frontend and backend functionalities focused on performance and user experience. Management and development of CMS-based solutions, including website customization and maintenance. Design, administration, and optimization of relational and non-relational databases using SQL, PostgreSQL, and MongoDB. Participation in modern web development projects, technical problem-solving, implementation of new features, and collaboration within teams focused on continuous improvement and learning new technologies.",
+        color: "bg-green-500",
+    },
+    {
         job: "Web Developer Intern",
         company: "DEXTRA ELECTRONIC",
         imgCompany:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnCuHl8n7TAodRab70jMzo7APgcEJLpEgqJg&s",
-        date: "2024 – Present",
+        date: "Oct 2024 – May 2026",
         tech: [
             "Laravel",
             "MySQL",
@@ -34,8 +54,9 @@ const experiencia = [
                 },
             },
         ],
-        color: "bg-blue-500",
+        color: "bg-orange-500",
     },
+
 ];
 
 export default function Experience() {
